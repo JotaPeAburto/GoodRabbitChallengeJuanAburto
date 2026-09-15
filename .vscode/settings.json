@@ -1,0 +1,4 @@
+{
+  "cucumber.features": ["goodrabbit/features/**/*.feature"],
+  "cucumber.glue": ["goodrabbit/steps/**/*.js"]
+}
