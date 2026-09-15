@@ -1,7 +1,7 @@
 Feature:  Proceso de inicio de sesion
 
 Scenario: Revision inicio de sesion GoodRabbit
-    Given Ingresar al home "https://tk-gr.demo.goodrabbit.tech/signin"
+    Given Ingresar al home 'https://tk-gr.demo.goodrabbit.tech/signin'
     And Validar existencia de formulario
     And Validar titulo "Iniciar sesión"
     And Validar input con nombre "Nombre de usuario" con placeholder "Ingrese nombre de usuario"
