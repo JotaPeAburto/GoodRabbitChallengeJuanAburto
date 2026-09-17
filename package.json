@@ -6,7 +6,8 @@
   "scripts": {
     "test": "cucumber-js",
     "test:chrome": "cross-env BROWSER=chrome jest",
-    "test:firefox": "cross-env BROWSER=firefox jest"
+    "test:firefox": "cross-env BROWSER=firefox jest",
+    "test:rabbit": "npx cucumber-js --name \"Revision inicio de sesion GoodRabbit\""
   },
   "keywords": [],
   "author": "",
